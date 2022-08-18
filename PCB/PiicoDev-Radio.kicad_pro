@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,42 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|107335001|95631000|00000000-0000-0000-0000-00005fceeac0|00000000-0000-0000-0000-000060e80f6b",
-        "courtyards_overlap|87472001|112116000|00000000-0000-0000-0000-00005f962edb|00000000-0000-0000-0000-000061639f8c",
-        "courtyards_overlap|87572001|112146000|00000000-0000-0000-0000-00005f962edb|00000000-0000-0000-0000-000061639f8c",
-        "courtyards_overlap|89174001|112708000|00000000-0000-0000-0000-00005f962edb|3208539f-128d-41c2-be91-49f2481a08ae",
-        "silk_over_copper|101955600|104506400|04265ba3-36a8-4d66-9eeb-0b9ecb955eb2|f3a2990b-1876-4fea-a316-ecf17c5f5007",
-        "silk_over_copper|101955600|74506400|33d24a37-7dfc-447f-a5cf-10500910614a|032b5f24-0912-4148-ab46-1af838809a69",
-        "silk_overlap|101902000|77503600|1d20f572-b506-4fdc-8e9b-ca8e9189f81f|08efb4f1-d1f1-4f9c-8c44-ceddc0522bc5",
-        "silk_overlap|101902000|80500800|1d20f572-b506-4fdc-8e9b-ca8e9189f81f|4f794433-4151-4b78-a29f-af905a8398e3",
-        "silk_overlap|101902000|83506400|1d20f572-b506-4fdc-8e9b-ca8e9189f81f|b3f06139-0723-4f8d-84d2-5c2042c5d25e",
-        "silk_overlap|101902000|86495200|1d20f572-b506-4fdc-8e9b-ca8e9189f81f|bd826d8f-f7b7-4727-abb1-1fd475cd8a0e",
-        "silk_overlap|101955600|101506400|13e3ad75-0f31-41f8-9486-417db2ec441b|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|77503600|08efb4f1-d1f1-4f9c-8c44-ceddc0522bc5|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|80500800|4f794433-4151-4b78-a29f-af905a8398e3|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|83506400|b3f06139-0723-4f8d-84d2-5c2042c5d25e|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|86495200|bd826d8f-f7b7-4727-abb1-1fd475cd8a0e|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|89506400|b3bb575e-0c2c-4283-874b-032fbff1252d|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|92506400|367f03a7-d503-40aa-9594-6ecf7e2eb476|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|95506400|f4954985-50cd-44cd-bb46-068ea7e93bb8|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|101955600|98506400|1c7721bf-5b9c-476e-bde9-12710da0295a|1d20f572-b506-4fdc-8e9b-ca8e9189f81f",
-        "silk_overlap|92608400|101506400|576f2517-0f05-4a6c-84a1-94e4ea109dba|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|104506400|d5b06df4-f67f-451c-876d-702b124f4d2a|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|77506400|fc57814d-d9fb-422b-a0cb-d60627a62d54|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|80506400|845d2052-47e5-4cde-a35c-a3fb3cc2cbee|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|83506400|d439701a-9b41-47cc-9e2d-568f4895fb25|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|86506400|2a261f9c-6a60-4037-b5fd-9fa61ecedca2|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|89506400|29d62e17-6ec7-48cf-aa1b-e34be3717673|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|92506400|836896d2-7e86-4c7b-adb6-594abee0e92b|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|95506400|ef70526a-8300-4f96-a261-3cde3e9dd9e1|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92608400|98506400|d26acbd6-e598-400a-a351-88bab4e433e9|df9d9096-e58c-42c9-95e7-cec3d3d21263",
-        "silk_overlap|92662000|74506400|df9d9096-e58c-42c9-95e7-cec3d3d21263|af196a5e-8a54-43f9-9009-26cd835b655d",
-        "silk_overlap|92662000|77506400|df9d9096-e58c-42c9-95e7-cec3d3d21263|fc57814d-d9fb-422b-a0cb-d60627a62d54",
-        "silk_overlap|92662000|80506400|df9d9096-e58c-42c9-95e7-cec3d3d21263|845d2052-47e5-4cde-a35c-a3fb3cc2cbee",
-        "silk_overlap|92662000|83506400|df9d9096-e58c-42c9-95e7-cec3d3d21263|d439701a-9b41-47cc-9e2d-568f4895fb25",
-        "silk_overlap|92662000|86506400|df9d9096-e58c-42c9-95e7-cec3d3d21263|2a261f9c-6a60-4037-b5fd-9fa61ecedca2"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -422,9 +387,19 @@
           "/ADD2",
           "/ADD3",
           "/ADD4",
+          "/DIO0",
+          "/DIO1",
+          "/DIO2",
+          "/DIO3",
+          "/DIO4",
+          "/MISO",
+          "/MOSI",
+          "/NSS",
           "/PWR_LED",
-          "/UPDI",
-          "Net-(R4-Pad1)"
+          "/RESET",
+          "/SCK",
+          "/SCL",
+          "/UPDI"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
