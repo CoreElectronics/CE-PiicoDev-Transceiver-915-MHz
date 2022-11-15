@@ -7241,6 +7241,10 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 0366a905-2d26-4964-8616-996d7ec1eec7)
   )
+  (polyline (pts (xy 246.38 40.64) (xy 246.38 44.45))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 07ebfc54-a8a5-4c41-bffe-4d7645472ae1)
+  )
 
   (wire (pts (xy 179.07 39.37) (xy 186.69 39.37))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -7319,6 +7323,10 @@
   (polyline (pts (xy 154.94 196.85) (xy 154.94 182.88))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2bf3f24b-fd30-41a7-a274-9b519491916b)
+  )
+  (polyline (pts (xy 256.54 44.45) (xy 256.54 48.26))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2cd5a57e-cfa2-492a-bfb7-8e06849fbec7)
   )
   (polyline (pts (xy 175.26 196.85) (xy 166.37 196.85))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -7449,6 +7457,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 57cac10c-5a19-4edc-8569-225d027ef7eb)
   )
+  (polyline (pts (xy 256.54 48.26) (xy 267.97 48.26))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5c669891-c7de-460a-aff7-c5aa992649cb)
+  )
+
   (wire (pts (xy 196.85 62.23) (xy 196.85 63.5))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5cacc08f-f10b-40ae-a3b2-5a55c7dc1cd2)
@@ -7481,6 +7494,10 @@
   (polyline (pts (xy 210.82 91.44) (xy 231.14 91.44))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 6d94a2e2-5ce1-4a80-8186-27f116b7f2bd)
+  )
+  (polyline (pts (xy 245.11 44.45) (xy 256.54 44.45))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 6dbb0b7a-3ebf-4daf-9ea1-3087554bc7e2)
   )
 
   (wire (pts (xy 41.91 57.15) (xy 36.83 57.15))
@@ -7712,6 +7729,10 @@
   (wire (pts (xy 62.23 152.4) (xy 63.5 152.4))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e857610b-4434-4144-b04e-43c1ebdc5ceb)
+  )
+  (polyline (pts (xy 254 40.64) (xy 254 44.45))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e9e9507e-0f04-4c19-8df0-4c57607799a2)
   )
   (polyline (pts (xy 25.4 127) (xy 62.23 127))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -7960,7 +7981,7 @@
   )
 
   (symbol (lib_id "CoreElectronics_Artwork:LOGO_PiicoDev") (at 203.2 160.02 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609a2a66)
     (property "Reference" "G1" (id 0) (at 203.2 165.7096 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -7977,7 +7998,7 @@
   )
 
   (symbol (lib_id "CoreElectronics_Artwork:LOGO_made-with-love") (at 269.24 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609a389c)
     (property "Reference" "G3" (id 0) (at 269.24 163.9824 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -7994,7 +8015,7 @@
   )
 
   (symbol (lib_id "CoreElectronics_Artwork:LOGO_CoreElectronics_no-text") (at 251.46 158.75 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609a5516)
     (property "Reference" "G2" (id 0) (at 251.46 163.9824 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -8011,7 +8032,7 @@
   )
 
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 276.86 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609a624b)
     (property "Reference" "LOGO1" (id 0) (at 276.86 167.005 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -8092,7 +8113,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 157.48 191.77 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609cb67d)
     (property "Reference" "H2" (id 0) (at 160.02 190.6016 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8109,7 +8130,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 157.48 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609cb683)
     (property "Reference" "H1" (id 0) (at 160.02 185.5216 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8126,7 +8147,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 170.18 190.5 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609cb689)
     (property "Reference" "FID2" (id 0) (at 172.339 189.3316 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8143,7 +8164,7 @@
   )
 
   (symbol (lib_id "Mechanical:Fiducial") (at 170.18 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000609cb68f)
     (property "Reference" "FID1" (id 0) (at 172.339 185.5216 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8285,7 +8306,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_3_Bridged123") (at 74.93 92.71 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060a08168)
     (property "Reference" "JP2" (id 0) (at 74.93 95.5802 0))
     (property "Value" "I2C PU" (id 1) (at 74.93 97.8916 0))
@@ -8612,7 +8633,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole") (at 161.925 186.69 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 5d6d95a6-5271-40aa-9b36-d7970de2194e)
     (property "Reference" "H3" (id 0) (at 164.465 185.5216 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -8629,7 +8650,7 @@
   )
 
   (symbol (lib_id "Connector:Conn_01x05_Male") (at 74.93 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 67cbc15e-ffc0-43a9-b4df-b20aa1bb90ff)
     (property "Reference" "J3" (id 0) (at 75.565 35.56 0))
     (property "Value" "Conn_01x05_Male" (id 1) (at 75.565 40.64 0)
@@ -8799,7 +8820,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 222.25 57.15 180) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid b980d4b5-6751-47b4-a433-fb569f636dd2)
     (property "Reference" "JP1" (id 0) (at 220.9799 54.61 90)
       (effects (font (size 1.27 1.27)) (justify right))
