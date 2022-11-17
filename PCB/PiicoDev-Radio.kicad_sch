@@ -7793,7 +7793,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 71975edf-020c-4eeb-9d09-f51d8216f500)
   )
-  (text "LED Vf = 2.8 V\nRFM69HCW DIO Maximum Current = 1 mA\nR = (3.3 - 2.8)/0.001 = 500 Ohms"
+  (text "LED Vf = 2.8 V\nRFM69HCW DIO Maximum Current = 1 mA\nR = (3.3 - 2.8)/0.001 = 500 Ohms\nRound to 1k to use more common part"
     (at 210.82 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 89b26937-4939-4e97-95a4-641243a3ee7c)
@@ -8806,7 +8806,7 @@
     (property "Reference" "R5" (id 0) (at 232.41 54.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "510R" (id 1) (at 233.68 59.69 90)
+    (property "Value" "1k" (id 1) (at 233.68 59.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 231.14 58.928 90)
@@ -9159,7 +9159,7 @@
       (reference "R4") (unit 1) (value "120R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/b1580650-e108-427e-8f52-7d58a58420ac"
-      (reference "R5") (unit 1) (value "510R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R5") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-00006138b025"
       (reference "SW1") (unit 1) (value "ADDR") (footprint "CoreElectronics_Components:SW_DIP_x04_Slide_CHS-04A1")
