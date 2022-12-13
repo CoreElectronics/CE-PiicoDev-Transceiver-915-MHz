@@ -6808,7 +6808,7 @@
         )
       )
     )
-    (symbol "Project Library:Antenna_Chip_No_Antenna_Symbol" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Project Library:Antenna_Chip_No_Antenna_Symbol" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "AE" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)) (justify right))
       )
