@@ -76,7 +76,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerbers")
+      (outputdirectory "C:/Users/Production/Downloads/")
     )
   )
 
@@ -699,7 +699,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000609a2a66")
-    (attr through_hole exclude_from_bom)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G1" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 27907456-675f-4372-8456-3255fdd1a95d)
@@ -3254,7 +3254,7 @@
     (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 7f3b9178-b467-4f2e-83e8-5bbdebd92682) (hatch edge 0.508)
       (connect_pads (clearance 0))
       (min_thickness 0.254)
-      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed) (copperpour not_allowed) (footprints not_allowed))
+      (keepout (tracks not_allowed) (vias not_allowed) (pads not_allowed ) (copperpour not_allowed) (footprints not_allowed))
       (fill (thermal_gap 0.508) (thermal_bridge_width 0.508))
       (polygon
         (pts
@@ -3356,7 +3356,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/67cbc15e-ffc0-43a9-b4df-b20aa1bb90ff")
-    (attr smd exclude_from_bom)
+    (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "J3" (at 0 -2.75 -90 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 200b665c-7ae4-4cdf-b506-6793633eca55)
@@ -3388,7 +3388,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000609a389c")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G3" (at 0 0) (layer "B.Fab") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 52194c94-e7df-49ff-beb1-04a1b4f2344e)
@@ -4474,7 +4474,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000609a624b")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "LOGO1" (at 0 0) (layer "B.Fab") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 8cb07eef-4e4e-47a5-9a8b-ea7986073b39)
@@ -4903,7 +4903,7 @@
     (property "Sheetname" "")
     (property "exclude_from_bom" "")
     (path "/00000000-0000-0000-0000-0000609a5516")
-    (attr through_hole exclude_from_bom)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G2" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
       (tstamp 1feb75da-52bc-4f54-bc22-6a4b1520ccea)
